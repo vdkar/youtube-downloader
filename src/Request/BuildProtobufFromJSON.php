@@ -12,7 +12,7 @@ class BuildProtobufFromJSON {
      */
     public static function build($json_model, $protobuf_class) {
         $class = new $protobuf_class();
-        $class->parseFromJsonStream($json_model, true);
+        $class->parseFromJsonStream($json_model);
         return $class;
     }
 }
