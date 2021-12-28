@@ -1,5 +1,5 @@
 {
-  "name": "socialapis/youtubedownloader",
+  "name": "vdkar/youtube-downloader",
   "description": "A small project for fetching youtube vidoes with their private api.",
   "keywords": [
     "Youtube",
@@ -9,7 +9,7 @@
   ],
   "authors": [
     {
-      "name": "socialAPIS",
+      "name": "socialapis",
       "email": "noemail@example.com",
       "role": "Founder"
     }
@@ -28,8 +28,8 @@
   "license": "RPL-1.5",
   "require": {
     "php": ">=7.0",
-    "guzzlehttp/guzzle": "6.2",
-    "google/protobuf": "3.11"
+    "guzzlehttp/guzzle": "*",
+    "google/protobuf": "*"
   },
   "scripts": {
     "test": [
